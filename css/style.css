@@ -1,0 +1,78 @@
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GRADIENTES */
+
+body{
+    background: radial-gradient( circle,#f1f1f1,#f3f3);
+}
+
+/* propiedades de la caja
+transformaciones */
+
+/* ROTAR - DEG ES IGUAL A GRADOS
+.caja{
+    background-color: tomato;
+    width: 250px;
+    height: 250px;
+    margin: 3rem;
+    border: 3px solid black;
+    transform: rotate(10deg)
+}
+*/
+ESCALAR EN NEGATIVO ESCALA PERO DADO VUELTA
+.caja{
+    background-color: tomato;
+    width: 250px;
+    height: 250px;
+    margin: 2rem;
+    border: 3px solid black;
+    transform: scale(1.2)
+}
+
+.caja{
+    background-color: tomato;
+    width: 250px;
+    height: 250px;
+    margin: 2rem;
+    border: 5px solid black;
+    transition: 3s;
+}
+/*
+PSEUDOCLASE HOVER (se transforma cuando se pasa con el mouse por arriba) 
+.caja:hover{
+    border-radius: 100%;
+    transform: rotate(360deg);
+}
+*/
+
+
+/* animaciones 
+
+img{
+    width: 60%;
+}
+
+.girar{
+    animation-name: girar;
+    animation-iteration-count: infinite;
+    animation-duration: 120s;
+}
+
+@keyframes girar{
+    from{
+        transform: rotate(0);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
+*/
+
+    
